@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
-
+# 主要代码
 def dataFrameToMysql(df: pd.DataFrame, user="root", password="2002",
                      database="node_mysql", host="localhost", table_name="example_table"):
     # 创建数据库连接
